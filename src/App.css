@@ -3,6 +3,12 @@
 }
 
 .header {
-  background-color: crimson;
+  /* background-color: crimson; */
+  border: solid 1px crimson;
   color: blanchedalmond;
+}
+
+.image {
+  border-radius: 50%;
+  width: 20vw;
 }

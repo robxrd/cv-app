@@ -1,7 +1,13 @@
+import Avatar from './Avatar'
+
 function Header() {
     return (
         <div className="header">
-           <h1>Hello?</h1>
+           <Avatar />
+           {/* <Name /> */}
+           {/* <JobTitle /> */}
+           {/* <Email /> */}
+           {/* <Social /> */}
         </div>
     )
 }
