@@ -1,9 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
 
-function App() {
+function App(props) {
+  
   return (
-    <h1>Hello</h1>
+    <div>
+      <Header />
+    </div>
   );
 }
 
